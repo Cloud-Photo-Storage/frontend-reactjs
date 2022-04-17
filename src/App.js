@@ -10,9 +10,11 @@ import { Routes, Route } from 'react-router-dom';
 const App = () => {
   return (
     <div className='App' >
-      <div className='gradient__bg'>
+      <Helmet>
+          <style>{'body { background-color: #63A4FF; }'}</style>
+      </Helmet>
+      <div className=''>
         <NavBar />
-        <Header />
       </div>
       <div>
         <Routes>

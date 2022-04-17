@@ -39,3 +39,7 @@
     transform: scale(1);
   }
 }
+
+.app {
+  background-color: linear-gradient(180deg, #63A4FF 0%, #90ECF3 100%);
+}
